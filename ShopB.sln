@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.218
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{E17D1BC6-F838-40E9-A514-03C78C467E3A}"
 EndProject
@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItem", "SolutionIte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BEC602C8-BDF3-42F2-93E2-13C1B094787D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{6623CFE8-F13E-40E5-9FDC-D490E2CDE889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{6623CFE8-F13E-40E5-9FDC-D490E2CDE889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{2AC84F71-A641-4EBF-BFF6-1B9CA4795094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{2AC84F71-A641-4EBF-BFF6-1B9CA4795094}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presention", "Presention", "{5F122DFC-3C23-47A9-85F1-22EA7B2A4232}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{76A385ED-8618-49C2-92D1-A05214E8CCC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{DE80B34B-5BB0-4715-BF4D-DBD3D970F024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{DE80B34B-5BB0-4715-BF4D-DBD3D970F024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{05D31486-A7E3-4C0B-9B2E-EBA542E26E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{05D31486-A7E3-4C0B-9B2E-EBA542E26E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite.EndPoint", "WebSite.EndPoint\WebSite.EndPoint.csproj", "{74DFDC48-BC74-468D-BDE3-8A7F93A955A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSite.EndPoint", "WebSite.EndPoint\WebSite.EndPoint.csproj", "{74DFDC48-BC74-468D-BDE3-8A7F93A955A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.EndPoint", "Admin.EndPoint\Admin.EndPoint.csproj", "{95000689-0146-40FA-80B2-FB4EEF79C4D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{74DFDC48-BC74-468D-BDE3-8A7F93A955A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DFDC48-BC74-468D-BDE3-8A7F93A955A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DFDC48-BC74-468D-BDE3-8A7F93A955A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95000689-0146-40FA-80B2-FB4EEF79C4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95000689-0146-40FA-80B2-FB4EEF79C4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95000689-0146-40FA-80B2-FB4EEF79C4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95000689-0146-40FA-80B2-FB4EEF79C4D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{DE80B34B-5BB0-4715-BF4D-DBD3D970F024} = {76A385ED-8618-49C2-92D1-A05214E8CCC7}
 		{05D31486-A7E3-4C0B-9B2E-EBA542E26E15} = {76A385ED-8618-49C2-92D1-A05214E8CCC7}
 		{74DFDC48-BC74-468D-BDE3-8A7F93A955A6} = {5F122DFC-3C23-47A9-85F1-22EA7B2A4232}
+		{95000689-0146-40FA-80B2-FB4EEF79C4D9} = {5F122DFC-3C23-47A9-85F1-22EA7B2A4232}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70C8718A-EE58-40C1-8968-091BDD6D130D}

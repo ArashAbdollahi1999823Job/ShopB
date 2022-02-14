@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectGit\\ShopB\\Application\\Application.csproj": {}
+    "E:\\ProjectGit\\ShopB\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\ProjectGit\\ShopB\\Application\\Application.csproj": {
+    "E:\\ProjectGit\\ShopB\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\ShopB\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\ProjectGit\\ShopB\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\ProjectGit\\ShopB\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\ShopB\\Application\\obj\\",
+        "projectPath": "E:\\ProjectGit\\ShopB\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\ShopB\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectGit\\ShopB\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\ProjectGit\\ShopB\\Domain\\Domain.csproj"
+              "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj"
               }
             }
           }
@@ -41,12 +41,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -64,33 +64,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectGit\\ShopB\\Domain\\Domain.csproj": {
+    "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\ShopB\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ProjectGit\\ShopB\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\ShopB\\Domain\\obj\\",
+        "projectPath": "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\ShopB\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -101,12 +101,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

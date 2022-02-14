@@ -221,9 +221,8 @@ D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.csproj.Co
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.MvcApplicationPartsAssemblyInfo.cache
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cache
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorAssemblyInfo.cs
-D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
-D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.xml
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\scopedcss\bundle\WebSite.EndPoint.styles.css
+D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\staticwebassets\WebSite.EndPoint.StaticWebAssets.Manifest.cache
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.input.cache
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.TagHelpers.output.cache
 D:\ProjectGit\ShopB\WebSite.EndPoint\obj\Debug\net5.0\WebSite.EndPoint.RazorCoreGenerate.cache

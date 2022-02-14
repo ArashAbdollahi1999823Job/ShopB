@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Domain.Users;
 using Application.Interfaces.Contexts;
 using Domain.Attributes;
-
+  
 namespace Persistence.Context
 {
     public class DataBaseContext : DbContext, IDataBaseContext
@@ -30,10 +30,9 @@ namespace Persistence.Context
             {
                 if (entityType.ClrType.GetCustomAttributes(typeof(AuditableAttribute), true).Length > 0)
                 {
-                    modelBuilder.Entity<User>().Property<DateTime>("InsertTime");
+                    modelBuilder.Entity<User>().Property<DateTime?>("InsertTime");
                     modelBuilder.Entity<User>().Property<DateTime?>("UpdateTime");
                     modelBuilder.Entity<User>().Property<DateTime?>("RemoveTime");
-
                     modelBuilder.Entity<User>().Property<bool>("IsRemoved");
 
 

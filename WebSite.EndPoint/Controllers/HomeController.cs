@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using WebSite.EndPoint.Models;
 
 namespace WebSite.EndPoint.Controllers
@@ -23,6 +24,7 @@ namespace WebSite.EndPoint.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();

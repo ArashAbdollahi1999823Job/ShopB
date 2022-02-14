@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Infrastructure.IdentityConfigs;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 
@@ -31,7 +32,21 @@ namespace WebSite.EndPoint
             #region connection
             string connection =Configuration["ConnectionStrings:SqlServer"] ;
             services.AddDbContext<DataBaseContext>(option=>option.UseSqlServer(connection));
-            services.AddDbContext<IdentityDataBaseContext>(option => option.UseSqlServer(connection));
+
+
+
+            services.AddIdentityService(Configuration);
+            services.AddAuthorization();
+
+
+            services.ConfigureApplicationCookie(option =>
+            {
+                option.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+                option.LoginPath = "/Account/login";
+                option.AccessDeniedPath = "/Account/AccessDenied";
+                option.SlidingExpiration = true;
+
+            });
 
             #endregion
         }
@@ -56,6 +71,7 @@ namespace WebSite.EndPoint
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
