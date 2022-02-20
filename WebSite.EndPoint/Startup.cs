@@ -8,9 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Interfaces;
+using Application.Visitors.SaveVisitorInfo;
 using Infrastructure.IdentityConfigs;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
+using Persistence.Context.MongoContext;
+using WebSite.EndPoint.Utilities.Filters;
 
 namespace WebSite.EndPoint
 {
@@ -27,7 +31,9 @@ namespace WebSite.EndPoint
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
+            services.AddTransient(typeof(IMongoDbContext<>), typeof(MongoDbContext<>));
+            services.AddTransient<ISaveVisitorInfoService, SaveVisitorInfoService>();
+            services.AddScoped<SaveVisitorFilter>();
 
             #region connection
             string connection =Configuration["ConnectionStrings:SqlServer"] ;

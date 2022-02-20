@@ -17,6 +17,11 @@ D:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.dll
 D:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 D:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.pdb
 D:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Persistence.deps.json
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Persistence.dll
@@ -26,11 +31,6 @@ E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Application.dll
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Domain.dll
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Application.pdb
 E:\ProjectGit\ShopB\Persistence\bin\Debug\net6.0\Domain.pdb
-E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
-E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
-E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
-E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
-E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
 E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
 E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\Persistence.dll
 E:\ProjectGit\ShopB\Persistence\obj\Debug\net6.0\ref\Persistence.dll

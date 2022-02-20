@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
             }
           },
           "imports": [
@@ -192,6 +196,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
             }
           },
           "imports": [

@@ -48,4 +48,3 @@ E:\ProjectGit\ShopB\Admin.EndPoint\obj\Debug\net6.0\Admin.EndPoint.dll
 E:\ProjectGit\ShopB\Admin.EndPoint\obj\Debug\net6.0\ref\Admin.EndPoint.dll
 E:\ProjectGit\ShopB\Admin.EndPoint\obj\Debug\net6.0\Admin.EndPoint.pdb
 E:\ProjectGit\ShopB\Admin.EndPoint\obj\Debug\net6.0\Admin.EndPoint.genruntimeconfig.cache
-E:\ProjectGit\ShopB\Admin.EndPoint\obj\Debug\net6.0\Admin.EndPoint.csproj.AssemblyReference.cache

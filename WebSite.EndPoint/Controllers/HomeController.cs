@@ -7,9 +7,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using WebSite.EndPoint.Models;
+using WebSite.EndPoint.Utilities.Filters;
 
 namespace WebSite.EndPoint.Controllers
 {
+    [ServiceFilter(typeof(SaveVisitorFilter))]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

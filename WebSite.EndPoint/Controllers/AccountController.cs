@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebSite.EndPoint.Models.ViewModels.User;
+using WebSite.EndPoint.Utilities.Filters;
 
 namespace WebSite.EndPoint.Controllers
 {
+    [ServiceFilter(typeof(SaveVisitorFilter))]
     public class AccountController : Controller
     {
 

@@ -14,7 +14,6 @@ E:\ProjectGit\ShopB\Domain\bin\Debug\net6.0\Domain.deps.json
 E:\ProjectGit\ShopB\Domain\bin\Debug\net6.0\Domain.dll
 E:\ProjectGit\ShopB\Domain\bin\Debug\net6.0\ref\Domain.dll
 E:\ProjectGit\ShopB\Domain\bin\Debug\net6.0\Domain.pdb
-E:\ProjectGit\ShopB\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 E:\ProjectGit\ShopB\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\ProjectGit\ShopB\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
 E:\ProjectGit\ShopB\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
