@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Users
 {
-        [Auditable]
-    public class User:IdentityUser 
+    [Auditable]
+    public class User : IdentityUser
     {
         public string FullName { get; set; }
     }

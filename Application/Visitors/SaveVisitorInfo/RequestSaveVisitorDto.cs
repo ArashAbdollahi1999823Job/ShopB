@@ -1,4 +1,6 @@
-﻿namespace Application.Visitors.SaveVisitorInfo;
+﻿using System.Security.AccessControl;
+
+namespace Application.Visitors.SaveVisitorInfo;
 
 public class RequestSaveVisitorDto
 {
@@ -11,5 +13,8 @@ public class RequestSaveVisitorDto
     public VisitorVersionDto Browser { get; set; }
     public VisitorVersionDto OperationSystem { get; set; }
     public DeviceDto Device { get; set; }
+    public string VisitorId { get; set; }
+
+    
 
 }

@@ -1,20 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Application.Interfaces;
 using Application.Visitors.SaveVisitorInfo;
+using Application.Visitors.VisitorOnline;
 using Infrastructure.IdentityConfigs;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 using Persistence.Context.MongoContext;
+using WebSite.EndPoint.Hubs;
 using WebSite.EndPoint.Utilities.Filters;
+using WebSite.EndPoint.Utilities.Filters.Middlewares;
 
 namespace WebSite.EndPoint
 {
@@ -33,13 +32,13 @@ namespace WebSite.EndPoint
             services.AddControllersWithViews();
             services.AddTransient(typeof(IMongoDbContext<>), typeof(MongoDbContext<>));
             services.AddTransient<ISaveVisitorInfoService, SaveVisitorInfoService>();
+            services.AddTransient<IVisitorOnlineService,VisitorOnlineService>();
             services.AddScoped<SaveVisitorFilter>();
+            services.AddSignalR();
 
             #region connection
             string connection =Configuration["ConnectionStrings:SqlServer"] ;
             services.AddDbContext<DataBaseContext>(option=>option.UseSqlServer(connection));
-
-
 
             services.AddIdentityService(Configuration);
             services.AddAuthorization();
@@ -53,7 +52,6 @@ namespace WebSite.EndPoint
                 option.SlidingExpiration = true;
 
             });
-
             #endregion
         }
 
@@ -71,7 +69,7 @@ namespace WebSite.EndPoint
                 app.UseHsts();
             }
 
-
+            app.UseSetVisitorId();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -85,6 +83,8 @@ namespace WebSite.EndPoint
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapHub<OnlineVisitorHub>("/chatHub");
             });
         }
     }

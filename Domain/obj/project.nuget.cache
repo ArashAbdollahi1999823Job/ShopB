@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VDb2Spgg08Gf0cvArGnbLZFR6PtJdYEvYS4L+ijoux2CZoe7Ht25Xqi7RWNgZ6VQk55wOfn2dqCLx6Miyo+0LA==",
+  "dgSpecHash": "FkIDC6BGTKs8XdXEBDjI9O41JBkT0PmfbMkmEi/4jRAw6eq2yDzC8SaX5A1ROIeuxY7fssJ4n/0VmdJ6tMgCdw==",
   "success": true,
   "projectFilePath": "E:\\ProjectGit\\ShopB\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Arash\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Arash\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Arash\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Arash\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
     "C:\\Users\\Arash\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Arash\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

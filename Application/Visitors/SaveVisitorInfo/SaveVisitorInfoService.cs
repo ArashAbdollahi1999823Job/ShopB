@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using System;
+using Application.Interfaces;
 using Domain.Visitors;
 using MongoDB.Driver;
 
@@ -43,6 +44,8 @@ public class SaveVisitorInfoService : ISaveVisitorInfoService
             PhysicalPath = request.PhysicalPath,
             Protocol = request.Protocol,
             ReferrerLink = request.ReferrerLink,
+            VisitorId = request.VisitorId,
+            Time = DateTime.Now,
         });
     }
 }

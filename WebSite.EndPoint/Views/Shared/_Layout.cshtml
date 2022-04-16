@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.CodeAnalysis.CSharp
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1540,7 +1541,15 @@
     <!-- JS Template -->
     <script src="~/Theme/assets/js/theme.js"></script>
     <!-- Here goes your custom.js -->
-    <script src="~/Theme/assets/js/custom.js"></script>
+<script src="~/Theme/assets/js/custom.js"></script>
+
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/SignalrOnlineVisitorService.js"></script>
+
+
+@await RenderSectionAsync("Scripts",required:false)
+
 </body>
 
 </html>
